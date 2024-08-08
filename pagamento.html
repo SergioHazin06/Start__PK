@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start__pk - Pagamento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Start__pk</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="pagamento.html">Pagamento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Métodos de Pagamento</h2>
+        <div class="grid">
+            <div class="metodo-pagamento">
+                <input type="radio" id="cartao-credito" name="pagamento" value="cartao-credito" checked>
+                <label for="cartao-credito">
+                    <span class="icone-pagamento"><i class="fas fa-credit-card"></i></span>
+                    Cartão de Crédito
+                </label>
+            </div>
+            <div class="metodo-pagamento">
+                <input type="radio" id="boleto" name="pagamento" value="boleto">
+                <label for="boleto">
+                    <span class="icone-pagamento"><i class="fas fa-barcode"></i></span>
+                    Boleto Bancário
+                </label>
+            </div>
+            <div class="metodo-pagamento">
+                <input type="radio" id="pix" name="pagamento" value="pix">
+                <label for="pix">
+                    <span class="icone-pagamento"><i class="fas fa-qrcode"></i></span>
+                    PIX
+                </label>
+            </div>
+            <div class="metodo-pagamento">
+                <input type="radio" id="paypal" name="pagamento" value="paypal">
+                <label for="paypal">
+                    <span class="icone-pagamento"><i class="fab fa-paypal"></i></span>
+                    PayPal
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Pagar</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Start__pk. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
